@@ -1,42 +1,39 @@
 {
-  "name": "npm-pkgs",
-  "version": "2.0.1",
-  "description": "List user npm packages from the [npmjs.com](http://npm.im)!",
-  "scripts": {
-    "lint": "jshint index.js && jscs index.js --reporter inline",
-    "test": "mocha",
-    "test-cov": "istanbul cover _mocha",
-    "test-travis": "istanbul cover _mocha --report lcovonly"
+  "name": "npm-user-pkgs",
+  "version": "1.0.0",
+  "description": "Fetch the npm packages created by a specific user.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
   },
-  "author": "Charlike Mike Reagent <mameto_100@mail.bg> (https://github.com/tunnckoCore)",
+  "dependencies": {
+    "jsonrequest": "^4.1.5"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/tunnckoCore/npm-pkgs.git"
+    "url": "git+https://github.com/IonicaBizau/npm-user-pkgs.git"
   },
   "keywords": [
-    "get",
-    "helper",
-    "list",
-    "npm",
-    "packages",
-    "pkg",
-    "pkgs",
-    "profile",
     "user",
-    "utils"
+    "packages",
+    "npm"
   ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
-  "devDependencies": {
-    "istanbul-harmony": "~0.3.1",
-    "mocha": "~2.2.1"
-  },
   "bugs": {
-    "url": "https://github.com/tunnckoCore/npm-pkgs/issues"
+    "url": "https://github.com/IonicaBizau/npm-user-pkgs/issues"
   },
-  "homepage": "https://github.com/tunnckoCore/npm-pkgs",
-  "main": "index.js",
-  "dependencies": {
-    "same-time": "^2.0.0",
-    "jsonrequest": "^3.0.0"
-  }
+  "homepage": "https://github.com/IonicaBizau/npm-user-pkgs#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
