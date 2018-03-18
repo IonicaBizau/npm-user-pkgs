@@ -1,6 +1,6 @@
 {
   "name": "npm-user-pkgs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Fetch the npm packages created by a specific user.",
   "main": "lib/index.js",
   "directories": {
