@@ -1,6 +1,6 @@
 {
   "name": "npm-user-pkgs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Fetch the npm packages created by a specific user.",
   "main": "lib/index.js",
   "directories": {
@@ -36,6 +36,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
